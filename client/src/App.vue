@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="coronavirus img" src="./assets/covid_19_graphic_generic.jpeg" />
+    <StayInformed title="Stay Tuned for Quarantine Best Practices" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StayInformed from "./components/StayInformed.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+  props: ["title"],
   components: {
-    HelloWorld
+    StayInformed
   }
-}
+};
 </script>
 
 <style>
