@@ -3,7 +3,7 @@
     <h2>Watch out! It is coming for you!</h2>
     <img alt="coronavirus img" src="./assets/covid_19_graphic_generic.jpeg" />
     <StayInformed title="Stay Tuned for Quarantine Best Practices!!" />
-    <a href="http://www.nytimes.com">NyTimes</a>
+    <!-- <a href="http://www.nytimes.com">NyTimes</a> -->
   </div>
 </template>
 
