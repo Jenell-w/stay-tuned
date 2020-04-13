@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <h2>Watch out! It is coming for you!</h2>
-    <img alt="coronavirus img" src="./assets/covid_19_graphic_generic.jpeg" />
+    <h2>Watch out! It is coming!</h2>
+    <img alt="coronavirus img" src="./assets/corona virus.jpeg" />
     <StayInformed title="Stay Tuned for Quarantine Best Practices!!" />
     <!-- <a href="http://www.nytimes.com">NyTimes</a> -->
   </div>
@@ -27,5 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-image: url("./assets/covid_19_graphic_generic.jpeg");
 }
 </style>
